@@ -33,7 +33,7 @@ and make money
   <div>
     <form action="" className="flex flex-col items-center space-y-6 pb-36">
       <Input type="email"  placeholder="Email" className="ring-2"/>
-      <Button type="submit" variant="secondary" className="hover:bg-gray-400 text-black rounded-lg">Get notification on launch</Button>
+      <Button type="submit" variant="secondary" className="hover:bg-gray-400 text-black rounded-lg border border-gray-800">Get notification on launch</Button>
     </form>
     
   </div>
