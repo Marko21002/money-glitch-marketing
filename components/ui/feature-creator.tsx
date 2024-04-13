@@ -2,38 +2,30 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon, ShieldCheckIcon } from '@
 
 const creatorFeatures = [
   {
-    name: 'Push to deploy.',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: "💰",
+    name: 'Make money: ',
+    description: 'Monetize your trading knowledge in few clicks. No need to setup a half-ass solution to achieve that. Our platform is tailored for this.',
+    icon: "💵",
   },
   {
-    name: 'SSL certificates.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-    icon: "💰",
+    name: 'SEO optimized pages: ',
+    description: 'Our pages are SEO optimized on the top level so you can grow audience by launching ads',
+    icon: "🎯",
   },
-  {
-    name: 'Database backups.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: "💰",
-  },
+
 ]
 
 const consumerFeatures = [
   {
-    name: 'Unlimited photo uploads.',
-    description: 'Etiam sed interdum lectus. Maecenas purus neque, volutpat eget placerat non, malesuada ac nisi.',
+    name: 'Affordable knowledge: ',
+    description: 'Our service is subscription based. No need to pay a huge fee just to get started.',
     icon: "💰",
   },
   {
-    name: 'Privacy settings.',
-    description: 'Dolor sit amet consectetur elit eiusmod tempor d incididunt ut labore et dolore magna.',
-    icon: "💰",
+    name: 'Trading experts: ',
+    description: 'We feature vetted trading experts on our platfrom. Reach out to us if you want your favorite trader on our platform.',
+    icon: "👨🏻‍💼",
   },
-  {
-    name: 'Real-time syncing.',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus suspendisse.',
-    icon: "💰",
-  },
+
 ]
 
 export default function FeatureCreator() {
@@ -53,7 +45,7 @@ export default function FeatureCreator() {
                 {creatorFeatures.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold dark:text-white">
-                      <div className='absolute left-1 top-1 h-5 w-5'>{feature.icon}</div>
+                      <div className='absolute left-0 top-0 text-[25px]'>{feature.icon}</div>
                       {feature.name}
                     </dt>
                     <dd className="inline dark:text-white">{feature.description}</dd>
@@ -73,7 +65,7 @@ export default function FeatureCreator() {
                 {consumerFeatures.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold dark:text-white">
-                    <div className='absolute left-1 top-1 h-5 w-5'>{feature.icon}</div>
+                    <div className='absolute left-0 top-0 text-[25px]'>{feature.icon}</div>
                       {feature.name}
                     </dt>
                     <dd className="inline dark:text-white">{feature.description}</dd>
