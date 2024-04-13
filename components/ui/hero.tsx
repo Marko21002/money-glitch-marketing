@@ -18,7 +18,7 @@ export function Hero() {
           ease: "easeInOut",
           
         }}
-        className="relative flex flex-col gap-4 items-center justify-center px-4"
+        className="relative flex flex-col gap-4 items-center justify-center px-4 dark"
       >
         <div className="h-screen relative flex flex-col gap-4 items-center justify-center px-4  ">
         <div className="text-3xl md:text-7xl font-normal dark:text-white text-center pt-20">
