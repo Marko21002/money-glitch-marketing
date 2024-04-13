@@ -38,7 +38,7 @@ and make money
     
   </div>
     <div className="text-center text-[90px]">🛠️</div>
-    <div className="text-white text-center">coming soon...</div>
+    <div className="dark:text-white text-center">coming soon...</div>
 </div>
 
         </div>
